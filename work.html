@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work</title>
+    <link rel="stylesheet" href="dist/tailwind.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header component -->
+    <header-component></header-component>
+
+    <!-- My Work section -->
+    <section class="my-work fade-in" id="work">
+      <div class="wrapper">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">
+          A selection of my range of work
+        </p>
+        <div class="portfolio">
+          <!-- Portfolio items -->
+          <a href="https://in-the-bag.netlify.app/" class="portfolio__item">
+            <img
+              src="img/inTheBag.png"
+              alt="Screenshot of inTheBag App"
+              class="portfolio__img"
+            />
+          </a>
+          <a href="https://cutegram.netlify.app/" class="portfolio__item">
+            <img
+              src="img/cuteGram.png"
+              alt="Screenshot of cuteGram"
+              class="portfolio__img"
+            />
+          </a>
+          <a href="https://blackjacktoo.netlify.app/" class="portfolio__item">
+            <img
+              src="img/blackJack.png"
+              alt="Screenshot of blackJack game"
+              class="portfolio__img"
+            />
+          </a>
+          <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="portfolio-item.html" class="portfolio__item">
+            <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer component -->
+    <footer-component></footer-component>
+
+    <script type="module" src="src/components/header-component.js"></script>
+    <script type="module" src="src/components/footer-component.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
